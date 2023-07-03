@@ -25,7 +25,6 @@ button {
 
 .flex {
   display: flex;
-  max-width: 50%;
   flex-direction: column;
   gap: 20px;
   justify-content: space-around;

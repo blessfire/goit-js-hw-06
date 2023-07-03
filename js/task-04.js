@@ -13,12 +13,12 @@ const decrementButton = document.querySelector('[data-action="decrement"]');
 
   // Додаємо слухача по кліку до кнопки зменшення
   decrementButton.addEventListener('click', function() {
-    counterValue--;
+    counterValue -= 1;
     counterValueElement.textContent = counterValue;
   });
 
   // Додаємо слухача по кліку до кнопки збільшення
   incrementButton.addEventListener('click', function() {
-    counterValue++;
+    counterValue += 1;
     counterValueElement.textContent = counterValue;
   });

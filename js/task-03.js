@@ -21,8 +21,9 @@ const images = [
 
 const gallery = document.querySelector(".gallery");
 gallery.classList.add('flex');
+
 const createGalleryItem = (image) => {
-  return `<li><img src="${image.url}" alt="${image.alt}"></li>`;
+  return `<li><img src="${image.url}" alt="${image.alt}" width='555'></li>`;
 };
 
 const galleryItems = images.map((image) => createGalleryItem(image)).join("");
